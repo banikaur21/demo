@@ -1,14 +1,53 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post A" },
-    { "id": 2, "title": "Post B" },
-    { "id": 3, "title": "Post C" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "context":"test url",
+   "value":[
+      {
+         "id":"123",
+         "computerDnsName":"ABC",
+         "firstSeen":"2020-08-24T04:08:06.2685082Z",
+         "lastSeen":"2020-08-24T23:26:42.4172832Z",
+         "osPlatform":"Windows10",
+         "osVersion":null,
+         "osProcessor":"x64",
+         "version":"1909",
+         "lastIpAddress":"0.0.0.0",
+         "lastExternalIpAddress":"0.0.0.0",
+         "agentVersion":"0.0.0.0",
+         "osBuild":12345,
+         "healthStatus":"Active",
+         "deviceValue":"Normal",
+         "rbacGroupId":1001,
+         "rbacGroupName":"SELF Managed",
+         "riskScore":"None",
+         "exposureLevel":"High",
+         "aadDeviceId":"dhsds",
+         "machineTags":[
+            "abcd"
+         ]
+      },
+      {
+         "id":"1234",
+         "computerDnsName":"ABCD",
+         "firstSeen":"2020-08-24T04:08:06.2685082Z",
+         "lastSeen":"2020-08-24T23:26:42.4172832Z",
+         "osPlatform":"Windows10",
+         "osVersion":null,
+         "osProcessor":"x64",
+         "version":"1909",
+         "lastIpAddress":"0.0.0.0",
+         "lastExternalIpAddress":"0.0.0.0",
+         "agentVersion":"0.0.0.0",
+         "osBuild":1245,
+         "healthStatus":"Active",
+         "deviceValue":"Normal",
+         "rbacGroupId":1002,
+         "rbacGroupName":"NOT Managed",
+         "riskScore":"None",
+         "exposureLevel":"High",
+         "aadDeviceId":"dhsds",
+         "machineTags":[
+            "abcd"
+         ]
+      }
+   ]
 }
