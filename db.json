@@ -1,6 +1,5 @@
 {
-   "context":"test url",
-   "value":[
+   "posts":[
       {
          "id":"123",
          "computerDnsName":"ABC",
