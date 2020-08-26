@@ -49,4 +49,18 @@
          ]
       }
    ]
+   {
+   "posts/1":[
+      {
+         "id":"123-asdf",
+         "cveId":"asdf",
+         "machineId":"123",
+         "fixingKbId":"33",
+         "productName":"123",
+         "productVendor":"yy",
+         "productVersion":"xx",
+         "severity":"high",
+    
+]
+}
 }
